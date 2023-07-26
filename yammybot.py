@@ -34,6 +34,7 @@ def echo(update: Update, context: CallbackContext):
 
 
 def main():
+    """Program entry point"""
     token = env('YAMMYCAKE_BOT_TOKEN')
     updater = Updater(token)
 
